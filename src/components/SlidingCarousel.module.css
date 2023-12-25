@@ -1,0 +1,61 @@
+.slides {
+    width: 100%;
+    height: 500px;
+}
+
+.contentBox {
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px;
+}
+
+.contentBoxLeft {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px;
+}
+
+
+.contentBox h1,
+.contentBoxLeft h1 {
+    font-size: 80px;
+    color: var(--primary);
+}
+
+.thirdCont {
+    font-size: 60px !important;
+    color: var(--primary);
+}
+
+.contentBox h4,
+.contentBoxLeft h4 {
+    font-size: 40px;
+    color: var(--white);
+}
+
+.btnBox {
+    display: flex;
+    justify-content: right;
+}
+
+.btn {
+    padding: 5px 10px !important;
+    border: 1px solid var(--primary) !important;
+    background-color: transparent !important;
+    cursor: pointer !important;
+    transition: 1s ease all;
+}
+
+.btn:hover {
+    background-color: var(--primary) !important;
+    border-radius: 10px;
+    color: var(--white) !important;
+}

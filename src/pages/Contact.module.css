@@ -1,0 +1,509 @@
+/* .banner {
+    width: 100%;
+    height: 70vh;
+    background-color: beige;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+}
+
+.contactForm {
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.heading {
+    width: 40%;
+    padding: 20px 0px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.notActive {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.notActive:hover {
+    border-bottom: 1.5px solid var(--primary);
+    color: var(--primary);
+}
+
+.listActive {
+    color: var(--primary);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s ease all;
+    border-bottom: 1.5px solid var(--primary)
+}
+
+.form {
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.left {
+    width: 40%;
+}
+
+.left img {
+    width: 360px;
+    height: 320px;
+}
+
+.right {
+    width: 60%;
+}
+
+.right h4 {
+    padding: 4px;
+    color: var(--primary);
+    font-size: 24px;
+}
+
+.formInp {
+    padding: 10px 25px;
+}
+
+.inputBox {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 0px;
+}
+
+.inputBox input {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    outline: none;
+    border-radius: 15px;
+    padding: 5px 25px;
+    margin: 6px 0px;
+    color: #000;
+    font-size: 16px;
+}
+
+.inputBox input::placeholder {
+    color: grey;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.inputBox:nth-child(3) {
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.inputBox:nth-child(3) textarea {
+    width: 45%;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    outline: none;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: var(--primary) !important;
+    cursor: pointer;
+    margin: 5px 0px !important;
+    border-radius: 20px !important;
+    transition: 0.5s ease all;
+}
+
+.btn:hover {
+    background-color: var(--primary);
+    filter: saturate(80%);
+}
+
+.files {
+    width: 45%;
+}
+
+@media screen and (max-width: 991px) {
+    .form{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .inputBox:nth-child(3) {
+        padding-left: 10px;
+    }
+} */
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    background-size: auto;
+}
+
+.contactForm {
+    padding: 30px 0px;
+    width: 100%;
+}
+
+.heading {
+    width: 40%;
+    padding: 20px 0px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.notActive {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.notActive:hover {
+    border-bottom: 1.5px solid var(--primary);
+    color: var(--primary);
+}
+
+.listActive {
+    color: var(--primary);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s ease all;
+    border-bottom: 1.5px solid var(--primary)
+}
+
+.form {
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.left {
+    width: 40%;
+}
+
+.left img {
+    width: 360px;
+    height: 320px;
+}
+
+.right {
+    width: 60%;
+}
+
+.right h4 {
+    padding: 4px;
+    color: var(--primary);
+    font-size: 24px;
+}
+
+.formInp {
+    padding: 10px 25px;
+}
+
+.inputBox {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 0px;
+}
+
+.inputBox input {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    outline: none;
+    border-radius: 15px;
+    padding: 5px 25px;
+    margin: 6px 0px;
+    color: #000;
+    font-size: 15px;
+}
+
+.inputBox input::placeholder {
+    color: grey;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.inputBox:nth-child(3) {
+    justify-content: left;
+    padding-left: 20px;
+}
+
+.inputBox:nth-child(3) textarea {
+    width: 45%;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    outline: none;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: var(--primary) !important;
+    cursor: pointer;
+    margin: 5px 0px !important;
+    border-radius: 20px !important;
+    transition: 0.5s ease all;
+}
+
+.btn:hover {
+    background-color: var(--primary);
+    filter: saturate(80%);
+}
+
+.files {
+    width: 45%;
+    border: 1px dashed var(--primary) !important;
+}
+
+@media screen and (max-width:1440px) {
+    .inputBox {
+        width: 90%;
+    }
+
+    .inputBox input {
+
+        padding: 10px 25px;
+
+    }
+
+}
+
+@media screen and (max-width:1350px) {
+    .inputBox:nth-child(3) {
+        padding-left: 6px;
+    }
+
+}
+
+
+@media screen and (max-width:1300px) {
+
+    .inputBox input {
+        font-size: 14px;
+    }
+
+    .inputBox:nth-child(3) {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+
+    .inputBox input {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+
+    .inputBox input {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+
+    .inputBox input {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .inputBox {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    .inputBox input {
+        font-size: 10px;
+    }
+
+    .left img {
+        width: 300px;
+        height: 270px
+    }
+
+    .inputBox input {
+        padding: 10px 40px;
+    }
+
+    .inputBox:nth-child(3) {
+        padding-left: 3px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    /* .form {
+        width: 100%;
+        margin-left: 0%;
+    } */
+    .formInp {
+        padding: 10px 5px;
+    }
+
+    .inputBox:nth-child(3) {
+        padding-left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .left img {
+        width: 270px;
+        height: 240px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .left img {
+        width: 240px;
+        height: 220px;
+    }
+
+    .inputBox:nth-child(3) {
+        padding-left: 0px;
+        margin-left: -18px;
+    }
+
+    .left img {
+        width: 210px;
+        height: 194px
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inputBox:nth-child(3) {
+        margin-left: 0px;
+    }
+
+    .left img {
+        width: 290px;
+        height: 260px
+    }
+
+    .inputBox input {
+        font-size: 16px;
+    }
+
+
+    .left {
+        width: 64%;
+        text-align: justify;
+    }
+
+    .inputBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputBox input {
+        padding: 10px 25px;
+    }
+
+    .inputBox:nth-child(3) {
+        padding-left: 0px;
+    }
+
+    .inputBox:nth-child(3) textarea {
+        width: 100%;
+    }
+
+    .files {
+        width: 100%;
+        border: 1px dashed var(--primary) !important;
+    }
+
+    .heading {
+        width: 80%;
+    }
+
+    .listActive,
+    .notActive {
+        margin-right: 27px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .left {
+        width: 62%;
+    }
+
+    .left img {
+        width: 290px;
+        height: 260px
+    }
+
+    .right {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .right {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .right {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .left img {
+        width: 250px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .left {
+        width: 86%;
+    }
+
+    .left img {
+        width: 216px;
+        height: 190px
+    }
+}

@@ -1,0 +1,7 @@
+.head {
+    text-align: center;
+    padding: 10px 0px;
+    text-shadow: 3px 6px 4px grey;
+    font-size: 40px;
+    text-transform: capitalize;
+}

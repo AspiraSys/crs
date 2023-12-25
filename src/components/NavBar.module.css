@@ -1,0 +1,224 @@
+.navCont {
+    width: 100%;
+    padding: 10px 30px;
+    background-color: var(--white);
+    display: flex;
+    box-shadow: 0px 8px 8px grey;
+}
+
+.logoBox {
+    width: 50%;
+}
+
+.logoBox img {
+    width: 150px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.navLinks {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navButton {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.5s ease all;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.navButton:nth-child(2){
+    margin-top: -10px;
+}
+
+.navButton:hover {
+    color: var(--primary);
+}
+
+.activeNav {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 1s ease all;
+    color: var(--primary);
+}
+
+/* DropDowns */
+
+.dropDown {
+    position: relative;
+    display: inline-block;
+    transition: 0.5s ease all;
+}
+
+.serviceBtn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    /* padding: 10px 0px; */
+    display: flex;
+    align-items: center;
+}
+
+.serviceAct {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    /* padding: 10px 0px; */
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+}
+
+.serviceBtn:hover {
+    color: var(--primary)
+}
+
+.serviceAct:hover {
+    color: var(--primary)
+}
+
+.drop_content {
+    display: none;
+    position: absolute;
+    background-color: var(--white);
+    min-width: 120px;
+    margin-top: 2px;
+    margin-left: 10px;
+    box-shadow: 0px 8px 12px 0px grey;
+    z-index: 1;
+    transition: 0.5s ease all;
+}
+
+.links {
+    color: var(--black);
+    padding: 6px 16px;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s ease all;
+    border-bottom: 0.5px solid grey;
+}
+
+.links:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    padding: 6px 20px;
+}
+
+.dropDown:hover .drop_content {
+    display: block;
+}
+
+/* humbergur */
+
+.hamburgerBox {
+    display: none;
+}
+
+.hamburger {
+    cursor: pointer;
+}
+
+.hamburger input {
+    display: none;
+}
+
+.hamburger svg {
+    height: 3em;
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+    fill: none;
+    stroke: var(--primary);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#lineTopBottom {
+    stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked+svg {
+    transform: rotate(-45deg);
+}
+
+.hamburger input:checked+svg #lineTopBottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+}
+
+@media screen and (max-width: 850px) {
+
+    .navButton,
+    .serviceBtn,
+    .serviceAct {
+        font-size: 15px;
+        transition: none;
+    }
+
+    .drop_content {
+        min-width: 80px;
+    }
+
+    .links {
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .navLinks {
+        display: none;
+    }
+
+    .hamburgerBox {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hamburger svg {
+        height: 40px !important;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .logoBox img {
+        width: 100px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logoBox img {
+        width: 120px;
+        height: 60px;
+        cursor: pointer;
+    }
+
+    .hamburger svg {
+        height: 36px !important;
+    }
+}

@@ -1,0 +1,172 @@
+footer {
+    width: 100%;
+    background: #022744;
+}
+
+.imgs img {
+    width: 330px;
+    cursor: pointer;
+}
+
+.footer_logo {
+    min-width: 350px;
+}
+
+.first {
+    margin-top: 43px;
+}
+
+.second {
+    margin-top: 43px;
+}
+
+.third {
+    margin-top: 43px;
+}
+
+.first p {
+    font-size: 17px;
+    width: 100%;
+}
+
+.second p {
+    font-size: 17px;
+    width: 100%;
+
+}
+
+.third p {
+    font-size: 17px;
+    width: 100%;
+}
+
+.third h6 {
+    cursor: pointer;
+}
+
+.footerCont {
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.social_media {
+    display: flex;
+}
+
+.text_reset {
+    font-size: 14px;
+    color: var(--white);
+}
+
+.text_reset:hover {
+    color: var(--primary);
+}
+
+.icons {
+    font-size: 20px !important;
+    cursor: pointer !important;
+}
+
+.icons:hover {
+    color: var(--primary);
+}
+
+.another_footer {
+    justify-content: space-between;
+}
+
+.conditions {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.conditions h6 {
+    font-size: 12px;
+}
+
+.rights {
+    font-size: 12px;
+}
+
+.cond {
+    position: relative;
+    top: -38px;
+}
+
+.footNote {
+    font-size: 12px;
+}
+
+
+@media screen and (max-width:1400px) {
+    .first p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .first p {
+        font-size: 10px;
+    }
+
+    .second p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .conditions h6 {
+        font-size: 8px;
+    }
+
+    .rights {
+        font-size: 10px;
+    }
+
+    .cond p {
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+    .third {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .social_media {
+        justify-content: center;
+    }
+
+    .another_footer {
+        flex-direction: column;
+    }
+
+    .conditions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .conditions h6 {
+        font-size: 14px;
+    }
+
+    .rights {
+        font-size: 12px;
+    }
+
+    .cond p {
+        font-size: 10px;
+    }
+
+    .third {
+        margin-bottom: 0rem!important;
+    }
+}
