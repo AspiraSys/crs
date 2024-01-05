@@ -1,0 +1,365 @@
+.stock_banner {
+    width: 100%;
+}
+
+.stock_banner img {
+    width: 100%;
+    height: 85vh;
+    opacity: 0.6;
+}
+
+.stock_banner h2 {
+    font-size: 80px;
+    position: absolute;
+    left: 22%;
+    top: 4%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.stock_banner h2 span {
+    color: var(--primary);
+}
+
+.sec_one {
+    width: 100%;
+    background-color: var(--cardHome);
+    padding: 180px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    gap: 20px;
+}
+
+.left h4 {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: var(--white);
+}
+
+.left h6 {
+    line-height: 50px;
+    max-width: 60%;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: italic;
+    color: var(--white);
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.design_cont {
+    width: 100%;
+    height: 30vh;
+    background-color: var(--primary);
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+}
+
+.formCont {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+
+.formCont img {
+    width: 250px;
+    height: 300px;
+    margin-left: -50px;
+    margin-top: -132px;
+}
+
+.innerForm {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 60px;
+    background-color: var(--white);
+}
+
+.innerForm input,
+.innerForm textarea {
+    width: 80%;
+    padding: 8px 15px;
+    outline: none;
+    border: 1px solid var(--black);
+}
+
+.innerForm input::placeholder,
+.innerForm textarea::placeholder {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.innerForm input:focus-within,
+.innerForm textarea:focus-within {
+    border-color: var(--primary);
+}
+
+.btnBox {
+    width: 80%;
+}
+
+.btns {
+    padding: 5px 15px !important;
+    background-color: var(--primary) !important;
+}
+
+.btns p {
+    font-size: 12px !important;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0rem !important;
+}
+
+.btns:hover {
+    filter: contrast(1.5);
+}
+
+.buzzCont {
+    width: 100%;
+    background-color: var(--white);
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBuzz {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.leftBuzz p {
+    max-width: 80%;
+    text-align: justify;
+    margin-bottom: 0rem !important;
+    font-size: 20px;
+}
+
+.rightBuzz {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightBuzz img {
+    width: 400px;
+    height: 400px;
+}
+
+.sec_three {
+    width: 100%;
+    background-color: var(--cardHome);
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.head {
+    color: var(--white);
+    text-shadow: none;
+}
+
+.outer_box {
+    width: 90%;
+    display: flex;
+    padding-top: 30px;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.inner_box {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.inner_box img {
+    width: 60px;
+    height: 60px;
+}
+
+.box p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--white);
+}
+
+.inner_box p {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: oblique;
+    color: var(--black);
+}
+
+.inner_box .cont1 {
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.cont2 {
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+
+.inner_cont {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.starBox {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 16px !important;
+}
+
+.feedback_cont {
+    width: 100%;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.feedback_main {
+    width: 100%;
+}
+
+.swiperTest {
+    display: flex;
+    width: 90%;
+    padding: 20px 0px;
+}
+
+.boxFeed {
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+.swiperBox {
+    width: 100%;
+}
+
+.feedback_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback_box h6 {
+    position: absolute;
+    text-align: justify;
+    width: 80%;
+    z-index: 10;
+    color: var(--white);
+    margin-top: -80px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+.feedback_box p {
+    width: 80%;
+    margin-bottom: 0rem !important;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+.feedback_box p span {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cardHome);
+}
+
+/* 
+.triangle_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle_container img{
+    width: 400px;
+    height: 400px;
+}
+
+.buzz_stock{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    margin-top: -10px;
+    right: 55px;
+} */
+/* .rightBuzz .triangle{
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+	width: 250px;
+	height: 250px;
+    background-color: var(--primary);
+    border-bottom-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+} */

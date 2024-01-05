@@ -5,27 +5,30 @@ import Button from "@mui/material/Button";
 
 const Contactus = () => {
   
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const cont = [
     {
       id: 1,
       title: "corporates",
+      active : true
     },
     {
       id: 2,
       title: "candidates",
+      active : false
     },
   ];
 
   const [activeItem, setActiveItem] = useState(null);
 
+  console.log(activeItem)
   const handleClick = (item) => {
     setActiveItem(item);
   };
 
   useEffect(() => {
     setActiveItem(cont[0]);
-  }, [cont]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
@@ -39,7 +42,8 @@ const Contactus = () => {
               <h5
                 key={item.id}
                 className={
-                  item === activeItem ? styles.listActive : styles.notActive
+                  item.id === activeItem?.id ? styles.listActive : styles.notActive
+                  // item === activeItem ? styles.listActive : styles.notActive
                 }
                 onClick={() => handleClick(item)}
               >

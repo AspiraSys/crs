@@ -101,14 +101,14 @@ const NavBar = () => {
               {item.name === "Services" ? (
                 <>
                   <div className={styles.dropDown}>
-                    <button
+                    <div
                       className={
                         item.active ? styles.serviceAct : styles.serviceBtn
                       }
                     >
                       Services
                       <Icons.DownArrow className={styles.icon} />
-                    </button>
+                    </div>
                     <div className={styles.drop_content}>
                       {additionalOptions.map((item, idx) => (
                         <div

@@ -10,7 +10,8 @@
   --primary: #AD9551;
   --cardHome : #022744;
   --cyan : #11D1AF;
-  --goldenYellow : #FED302
+  --goldenYellow : #FED302;
+  --cement : #D9D9D9;
 
 }
 
@@ -92,4 +93,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* timeLine */
+
+.vertical-timeline::before {
+  width: 6px !important;
+  border-radius: 10px;
+  border: 1.5px solid var(--white) !important;
+  background: transparent !important;
+}
+
+.vertical-timeline-element-icon{
+  width: 20px !important;
+  height: 20px !important;
+  left: 52% !important;
+  margin-top: 60px;
+  background: var(--white) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.vertical-timeline-element-content{
+  background: none !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.vertical-timeline-element-content-arrow{
+  display: none !important;
 }

@@ -29,7 +29,7 @@ const Footer = () => {
               </p>
               <p className={styles.footerCont}>
                 <Icons.CallIcon className={`me-3 ${styles.icons}`} />
-                7708501139
+                9363 01 5802, 9363 02 5802
               </p>
               <p className={styles.footerCont}>
                 <Icons.Email className={`me-3 ${styles.icons}`} />
@@ -67,7 +67,7 @@ const Footer = () => {
                   to={"/services/recruitment"}
                   className={styles.text_reset}
                 >
-                  Overseas Recruitment
+                  Domestic Recruitment
                 </Link>
               </p>
               <p>
@@ -75,7 +75,7 @@ const Footer = () => {
                   to={"/services/recruitment"}
                   className={styles.text_reset}
                 >
-                  Domestic Recruitment
+                  Overseas Recruitment
                 </Link>
               </p>
               <p>

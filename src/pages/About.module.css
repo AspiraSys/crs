@@ -1,0 +1,231 @@
+.bannerCont{
+    width: 100%;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerCont .imgBox{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.bannerCont img{
+    width: 100%;
+    height: 100%;  
+}
+
+.bannerCont .title{
+    width: 60%;
+    top: 160px;
+    left: 25%;
+    position: absolute;
+    z-index: 10;
+    color: var(--white);
+}
+
+.bannerCont .title h2{
+    font-size: 120px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.visionCont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.mainCont{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.leftCont{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.objCont{
+    width: 320px;
+    height: 380px;
+    background-color: var(--goldenYellow);
+    border: 1px solid black;
+    border-top-left-radius: 32%;
+    border-bottom-right-radius: 30%;
+    box-shadow: 8px 12px 8px grey;
+}
+
+.objCont img{
+    width: 240px;
+    height: 320px;
+    margin-left: -58px;
+    margin-top: 62px;
+    position: absolute;
+}
+
+.imgCont{
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCont p{
+    max-width: 65%;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.rightCont{
+    width: 50%;
+    background-image: url('../images/CRS_logo_.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightCont p{
+    text-align: justify;
+    font-size: 28px;
+}
+
+.galleryCont{
+    width: 100%;
+    background-color: var(--goldenYellow);
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiperTest{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.swiperBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryPic{
+    width: 90%;
+    padding: 20px;
+    display: flex;
+}
+
+.galleryPic img{
+    width: 200px;
+    height: 120px;
+    transition: 0.5s ease all;
+}
+
+.galleryPic img:hover{
+    scale: 1.05;
+}
+
+.crs_animat{
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crs_animat img{
+    width: 500px;
+    height: 350px;
+}
+
+.teamCont{
+    width: 100%;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.head h1{
+    padding: 10px 0px;
+    text-shadow: 3px 6px 4px grey;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.head h1 span{
+    color: var(--primary);
+}
+
+.teamBox{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.swiperTeamCont{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftImg{
+    width: 50%;
+}
+
+.swiperteam{
+    height: auto;
+    padding: 10px 12px;
+}
+
+.leftImg img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+}
+
+.rightBox{
+    width: 50%;
+    padding-top: 10px;
+}
+
+.rightBox h3{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.rightBox h4{
+    font-size: 18px;
+    color: var(--primary);
+    font-weight: 700;
+    text-transform: capitalize;
+}

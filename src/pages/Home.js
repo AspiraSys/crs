@@ -29,17 +29,17 @@ const Home = () => {
     },
     {
       id: 2,
-      images: Images.home_service_stocks,
-      content:
-        "Our stock services provide clients with strategic investment guidance, market expertise,And personalised portfolios. We aim to double your stock market investments through careful analysis And tailored strategies for financial growth.",
-      navigate: "/services/stocks",
-    },
-    {
-      id: 3,
       images: Images.home_service_domestic,
       content:
         "We excel in finding the right talent locally, matching your company`s needs With skilled professionals. Our tailored recruitment solutions ensure you build a high-performing team For sustainable growth.",
       navigate: "/services/recruitment",
+    },
+    {
+      id: 3,
+      images: Images.home_service_stocks,
+      content:
+        "Our stock services provide clients with strategic investment guidance, market expertise,And personalised portfolios. We aim to double your stock market investments through careful analysis And tailored strategies for financial growth.",
+      navigate: "/services/stocks",
     },
     {
       id: 4,
@@ -102,7 +102,7 @@ const Home = () => {
       id: 4,
       name: "Ragu",
       feedback:
-        "Now I got job in Sutherland with the Help of crystal recruitment solutions. Thanks for Carrying me there.",
+        "I'm excited to announce my new role at Sutherland, made possible by Crystal Recruitment Solutions. Their expertise and support were invaluable. Grateful for this opportunity and their guidance. Thanks to them for this career move!",
       bg: "#58A3F2",
       picture: Images.men_2,
     },
@@ -166,11 +166,11 @@ const Home = () => {
       <SlidingCarousel />
       <div className={styles.serviceSec}>
         <Headers title="Choose your Service" />
-        <img
+        {/* <img
           src={Images.home_vector}
           alt="home_vector"
           className={styles.vector}
-        />
+        /> */}
         <div className={styles.cardsSec}>
           {serviceSec.map((item) => (
             <Cards

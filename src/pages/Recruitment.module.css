@@ -1,0 +1,199 @@
+.recruitCont {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+    height: 70vh;
+}
+
+.contentBox {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.contentBox p {
+    font-size: 30px;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.contentBox h5 {
+    font-size: 40px;
+    font-style: italic;
+    color: var(--white);
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.rightImg {
+    position: absolute;
+    top: 160px;
+    right: 240px;
+}
+
+.rightImg img {
+    width: 340px;
+    height: 340px;
+}
+
+.visionCont {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.leftCont {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftCont img {
+    width: 380px;
+    height: 380px;
+}
+
+.rightCont {
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.rightCont h2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.rightCont h3 {
+    font-size: 24px;
+    font-weight: 350;
+    text-align: justify;
+}
+
+.aceCont {
+    width: 100%;
+    background-color: var(--black);
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.aceCont h1 {
+    text-align: center;
+    color: var(--white);
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.timeLineCont {
+    width: 80%;
+    height: auto !important;
+}
+
+.timeInner {
+    width: 100% !important;
+}
+
+.vectorImg {
+    width: 280px;
+    height: 280px;
+}
+
+.titleCont {
+    font-size: 38px !important;
+    color: var(--white) !important;
+    text-transform: capitalize;
+    max-width: 80%;
+    text-align: center !important;
+    opacity: 1 !important;
+}
+
+.contactBox {
+    display: flex;
+    align-items: center;
+}
+
+.bottomRecruit {
+    width: 100%;
+    height: 92vh;
+    background-color: var(--black);
+    display: flex;
+    padding-top: 80px;
+}
+
+.bottomRecruit img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottomCont {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    margin-top: 16%;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.bottomHead h4 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.bottomContact {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottomCont h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.bottomCont .btns {
+    background-color: var(--primary) !important;
+    border-radius: 20px !important;
+    transition: 1s ease all !important;
+    display: flex;
+    justify-content: left !important;
+    color: var(--white);
+    padding: 5px 20px;
+}
+
+.bottomCont .btns:hover {
+    color: var(--black) !important;
+    border: 2px solid var(--primary);
+    background-color: var(--white) !important;
+}
