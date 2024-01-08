@@ -1,0 +1,151 @@
+.topCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dullGrey);
+    transition: 0.5s ease all;
+}
+
+.stickTopCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--dullGrey);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+    padding-top: 45px;
+    transition: 1s ease all;
+}
+
+.titleCont {
+    width: 70%;
+}
+
+.arrow {
+    width: 100%;
+    padding: 50px 10px;
+    background-color: var(--cement);
+    clip-path: polygon(0% 0%, 85% 0%, 100% 52%, 85% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.arrow h5 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.arrow h6 {
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.applyCont {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 60px !important;
+    font-size: 16px !important;
+    background-color: var(--primary) !important;
+    letter-spacing: 1px !important;
+}
+
+.btn:hover {
+    filter: contrast(1.5);
+}
+
+.subMain {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainCont {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.icons {
+    width: 10%;
+    cursor: pointer;
+}
+
+.icons:hover {
+    color: var(--primary);
+    filter: contrast(1.5);
+}
+
+.descripCont {
+    width: 70%;
+    padding: 30px 10px;
+}
+
+.descripCont {
+    padding: 30px 20px;
+}
+
+.descripCont h4 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+
+.descripCont p {
+    margin-bottom: 0rem !important;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.descripCont ul li {
+    font-size: 15px;
+    text-align: justify;
+    list-style-type: square;
+}
+
+.detailJobCont {
+    width: 20%;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailCont {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--black);
+}
+
+.detailCont h4 {
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.detailCont p {
+    margin-bottom: 0rem !important;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.detailCont .iconsDet {
+    font-size: 18px;
+    color: var(--primary);
+}

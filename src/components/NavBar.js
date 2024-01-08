@@ -24,7 +24,7 @@ const NavBar = () => {
     {
       id: 3,
       name: "Careers",
-      navigate: "careers",
+      navigate: "careers/jobs",
       active: false,
     },
     {

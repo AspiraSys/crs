@@ -1,0 +1,171 @@
+.careers_main {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: var(--liteGrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/CRS_logo_.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    gap: 40px;
+}
+
+.careers_filter {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.careers_filter_stick {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 18%;
+    background-color: var(--liteGrey);
+    z-index: 10;
+    padding: 20px 0px;
+}
+
+.careers_filter h4 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.input_filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job_input {
+    width: 60%;
+    border: none;
+    outline: none;
+    background-color: var(--white);
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.job_input::placeholder {
+    padding-left: 5px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.location_box {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.location_icon {
+    width: 15% !important;
+    color: var(--cement) !important;
+    font-size: 25px !important;
+}
+
+.location_box input {
+    border: none;
+    outline: none;
+    background-color: var(--white);
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.location_box input::placeholder {
+    padding-left: 5px;
+    text-transform: capitalize;
+}
+
+.search_icon {
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+    padding: 5px 10px !important;
+    align-items: center;
+    font-size: 40px !important;
+    cursor: pointer;
+    transition: 0.5s ease all !important;
+}
+
+.search_icon:hover {
+    filter: contrast(1.5);
+}
+
+.careers_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.careers_list::-webkit-scrollbar-thumb {
+    visibility: hidden;
+}
+
+.list_cont {
+    width: 60%;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    display: flex;
+    padding: 25px;
+    transition: 1s ease all;
+}
+
+.list_cont:hover {
+    box-shadow: 10px 12px 5px var(--cement);
+}
+
+.left_con {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.left_con h4 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.left_con h6 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.btnBox {
+    display: flex;
+    gap: 20px;
+}
+
+.btns {
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+    border: 1px solid var(--black);
+    font-size: 12px !important;
+    transition: 1s ease all !important;
+    border: none;
+}
+
+.btns:hover {
+    background-color: var(--black) !important;
+}
+
+.right_con {
+    width: 25%;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}

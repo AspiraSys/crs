@@ -78,6 +78,9 @@ import stock_icon1 from "../images/icon1.png";
 import stock_icon2 from "../images/icon2.png";
 import stock_buzz from "../images/stock_buzz_2.png";
 
+// careers
+import careers from "../images/Careers.jpg";
+
 const Images = {
   logoTag: logo,
   crs_logo: crs_logo_2,
@@ -146,6 +149,7 @@ const Images = {
   stock_icon1: stock_icon1,
   stock_icon2: stock_icon2,
   stock_buzz: stock_buzz,
+  careersBanner: careers,
 };
 
 export default Images;

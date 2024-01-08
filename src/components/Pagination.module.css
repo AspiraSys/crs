@@ -1,0 +1,40 @@
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root{
+    background: var(--primary) !important;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background: var(--primary) !important;
+
+}
+
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    width: 35px;
+    height: 35px;
+    margin: 0 4px;
+    background-color: var(--liteWhite);
+    color: var(--black);
+    border: none;
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  
+    &.active {
+      background-color: var(--primary);
+      color: var(--white);
+    }
+  
+    &:hover {
+      background-color: var(--primary);
+      color: var(--white);
+    }
+  }
+  

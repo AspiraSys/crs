@@ -8,11 +8,12 @@
   --white: #fff;
   --black: #000;
   --primary: #AD9551;
-  --cardHome : #022744;
-  --cyan : #11D1AF;
-  --goldenYellow : #FED302;
-  --cement : #D9D9D9;
-
+  --cardHome: #022744;
+  --cyan: #11D1AF;
+  --goldenYellow: #FED302;
+  --cement: #D9D9D9;
+  --liteGrey: #F0F0F0;
+  --dullGrey: #EEEEEE;
 }
 
 ::-webkit-scrollbar {
@@ -60,7 +61,7 @@
 
 /* footer */
 
-.footer{
+.footer {
   width: 100%;
   z-index: 9999;
   display: flex;
@@ -75,10 +76,13 @@
   border-radius: 50% !important;
 }
 
-.carousel-control-next, .carousel-control-prev{
+.carousel-control-next,
+.carousel-control-prev {
   width: 10% !important;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   visibility: hidden;
 }
 
@@ -104,7 +108,7 @@
   background: transparent !important;
 }
 
-.vertical-timeline-element-icon{
+.vertical-timeline-element-icon {
   width: 20px !important;
   height: 20px !important;
   left: 52% !important;
@@ -114,7 +118,7 @@
   box-shadow: none !important;
 }
 
-.vertical-timeline-element-content{
+.vertical-timeline-element-content {
   background: none !important;
   box-shadow: none !important;
   display: flex !important;
@@ -122,6 +126,46 @@
   align-items: center !important;
 }
 
-.vertical-timeline-element-content-arrow{
+.vertical-timeline-element-content-arrow {
   display: none !important;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+  background: var(--primary) !important;
+}
+
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background: var(--primary) !important;
+
+}
+
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  width: 35px;
+  height: 35px;
+  margin: 0 4px;
+  background-color: var(--liteWhite);
+  color: var(--black);
+  border: none;
+  cursor: pointer;
+  border-radius: 35px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+
+  &.active {
+    background-color: var(--primary);
+    color: var(--white);
+  }
+
+  &:hover {
+    background-color: var(--primary);
+    color: var(--white);
+  }
 }
